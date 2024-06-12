@@ -16,7 +16,7 @@ import pandas as pd
 load_dotenv()
 
 # Configure Generative AI API key from environment variables
-api_key = os.getenv("GENAI_API_KEY")
+api_key = "AIzaSyB_MfpqTjenjmCAqczJ0eoRvKiyMXxRVFM"
 if api_key is None:
     st.error("API key not found. Please set the GENAI_API_KEY environment variable.")
     st.stop()
